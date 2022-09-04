@@ -6,7 +6,7 @@
 .card_container {
     max-width: 1000px;
     padding: 20px 15px;
-        background: linear-gradient(90deg, rgba(131, 58, 180, 0.5525560566023284) 0%, rgba(29, 241, 253, 0.33967090254070376) 50%, rgba(252, 176, 69, 0.29485297536983546) 100%), url('./Veranda-Rovinj-10-1080x1618.webp');
+        background: linear-gradient(90deg, rgba(131, 58, 180, 0.5525560566023284) 0%, rgba(17, 101, 105, 0.44) 50%, rgba(71, 58, 39, 0.29) 100%), url('./Veranda-Rovinj-10-1080x1618.webp');
         background-repeat: no-repeat;
         background-size:cover;
         border-radius: 20px;
@@ -38,7 +38,9 @@ text-shadow: 2px -4px 7px rgba(0, 0, 0, 0.54);
 
 .explain {
     margin: 0 auto;
-    width: 450px;
+    width: 600px;
+    margin-top: 20px;
+    font-size: 40px;
 }
 
 .staff_container {
@@ -50,9 +52,12 @@ margin-top: 30px;
 
 .name_staff {
     margin-left: 20px;
-    font-size: 35px;
-    font-weight: 700;
+    font-size: 45px;
+    color: #dddddf;
+    font-weight: 600;
+    line-height: 1.5;
     text-shadow: 2px -4px 7px rgba(0, 0, 0, 0.54);
+    text-align: center;
 }
 
 
@@ -60,12 +65,17 @@ margin-top: 30px;
     font-size: 29px;
         font-weight: 700;
         text-shadow: 2px -4px 7px rgba(0, 0, 0, 0.54);
+        text-align: center;
+}
+
+.job_item{ 
+    font-size: 40px;
 }
 
 .about {
-    font-size: 34px;
+    font-size: 44px;
     margin: 0 auto;
-        width: 250px;
+        width: 450px;
         text-align: center;
         margin-top: 20px;
         text-shadow: 2px -4px 7px rgba(0, 0, 0, 0.54);
